@@ -1,116 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="37b35af1-0d45-4946-830e-14b8d883526e" name="Default Changelist" comment="" />
+    <list default="true" id="37b35af1-0d45-4946-830e-14b8d883526e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Metodos Computacionais.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Metodos Computacionais.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EditaFuncao.py" beforeDir="false" afterPath="$PROJECT_DIR$/EditaFuncao.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Funcao.py" beforeDir="false" afterPath="$PROJECT_DIR$/Funcao.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FuncaoZero.py" beforeDir="false" afterPath="$PROJECT_DIR$/FuncaoZero.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IC.py" beforeDir="false" afterPath="$PROJECT_DIR$/IC.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interpolacao.py" beforeDir="false" afterPath="$PROJECT_DIR$/Interpolacao.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Correlacao.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EditaFuncao.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="105" selection-start-line="8" selection-start-column="105" selection-end-line="8" selection-end-column="105" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Funcao.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="24" lean-forward="true" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FuncaoZero.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EditaFuncaoDerivada.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FuncaoDerivada.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/IC.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Interpolacao.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="28" column="15" lean-forward="true" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="15" />
-              <folding>
-                <element signature="e#0#17#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -119,51 +25,18 @@
       </list>
     </option>
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/MetodosComputacionais-Funcao.py" />
-        <option value="$PROJECT_DIR$/MetodosComputacionais-Bissecção.py" />
-        <option value="$PROJECT_DIR$/MetodosComputacionais-PosicaoFalsa.py" />
-        <option value="$PROJECT_DIR$/MetodosComputacionais-FuncoesMatematicas.py" />
-        <option value="$PROJECT_DIR$/MetodosComputacionais-FuncaoDerivada.py" />
-        <option value="$PROJECT_DIR$/MetodosComputacionais-EditaFuncao.py" />
-        <option value="$PROJECT_DIR$/MetodosComputacionais-metodoDaSecante.py" />
-        <option value="$PROJECT_DIR$/MetodosComputacionais-Newton_Raphson.py" />
-        <option value="$PROJECT_DIR$/MetodosComputacionais_Funcao.py" />
-        <option value="$PROJECT_DIR$/MetodosComputacionais_Newton_Raphson.py" />
-        <option value="$PROJECT_DIR$/MetodosComputacionais_PosicaoFalsa.py" />
-        <option value="$PROJECT_DIR$/MetodosComputacionais_metodoDaSecante.py" />
-        <option value="$PROJECT_DIR$/MetodosComputacionais_Bissecção.py" />
-        <option value="$PROJECT_DIR$/Metodos_Computacionais_Correlacao.py" />
-        <option value="$PROJECT_DIR$/MetodosComputacionais_IC.py" />
-        <option value="$PROJECT_DIR$/MetodosComputacionais_EditaFuncao.py" />
-        <option value="$PROJECT_DIR$/MetodosComputacionais_FuncaoZero.py" />
-        <option value="$PROJECT_DIR$/MetodosComputacionais_Interpolacao.py" />
-        <option value="$PROJECT_DIR$/MetodosComputacionais_FuncaoDerivada.py" />
-        <option value="$PROJECT_DIR$/FuncaoDerivada.py" />
-        <option value="$PROJECT_DIR$/EditaFuncao.py" />
-        <option value="$PROJECT_DIR$/Funcao.py" />
-        <option value="$PROJECT_DIR$/FuncaoZero.py" />
-        <option value="$PROJECT_DIR$/EditaFuncaoDerivada.py" />
-        <option value="$PROJECT_DIR$/Interpolacao.py" />
-        <option value="$PROJECT_DIR$/main.py" />
-      </list>
-    </option>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="950" />
     <option name="width" value="980" />
     <option name="height" value="1040" />
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes />
-  </component>
+  <component name="ProjectId" id="1PBwuvBXhyvJcFiRVaxXbIg1o7L" />
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../scriptForCoding" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -311,150 +184,17 @@
     </task>
     <servers />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.5072655" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32956153" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39886847" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.5072655" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32956153" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39886847" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout-to-restore>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/MetodosComputacionais-Bissecção.py" />
-    <entry file="file://$PROJECT_DIR$/MetodosComputacionais-PosicaoFalsa.py" />
-    <entry file="file://$PROJECT_DIR$/MetodosComputacionais-FuncaoDerivada.py" />
-    <entry file="file://$PROJECT_DIR$/MetodosComputacionais-EditaFuncao.py" />
-    <entry file="file://$PROJECT_DIR$/MetodosComputacionais-FuncoesMatematicas.py" />
-    <entry file="file://$PROJECT_DIR$/MetodosComputacionais-metodoDaSecante.py" />
-    <entry file="file://$PROJECT_DIR$/MetodosComputacionais-Funcao.py" />
-    <entry file="file://$PROJECT_DIR$/MetodosComputacionais-Newton_Raphson.py" />
-    <entry file="file://$PROJECT_DIR$/MetodosComputacionais_PosicaoFalsa.py" />
-    <entry file="file://$PROJECT_DIR$/MetodosComputacionais_Newton_Raphson.py" />
-    <entry file="file://$PROJECT_DIR$/MetodosComputacionais_metodoDaSecante.py" />
-    <entry file="file://$PROJECT_DIR$/MetodosComputacionais_Bissecção.py" />
-    <entry file="file://$PROJECT_DIR$/MetodosComputacionais_FuncoesMatematicas.py" />
-    <entry file="file://$PROJECT_DIR$/MetodosComputacionais_IC.py" />
-    <entry file="file://$PROJECT_DIR$/MetodosComputacionais_Funcao.py" />
-    <entry file="file://$PROJECT_DIR$/Metodos_Computacionais_Correlacao.py" />
-    <entry file="file://$PROJECT_DIR$/MetodosComputacionais_Interpolacao.py" />
-    <entry file="file://$PROJECT_DIR$/MetodosComputacionais_FuncaoZero.py" />
-    <entry file="file://$PROJECT_DIR$/MetodosComputacionais_EditaFuncao.py" />
-    <entry file="file://$PROJECT_DIR$/MetodosComputacionais_FuncaoDerivada.py" />
-    <entry file="file://$PROJECT_DIR$/IC.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EditaFuncaoDerivada.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FuncaoZero.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Funcao.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="24" lean-forward="true" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EditaFuncao.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="105" selection-start-line="8" selection-start-column="105" selection-end-line="8" selection-end-column="105" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Correlacao.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FuncaoDerivada.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Interpolacao.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="28" column="15" lean-forward="true" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#17#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

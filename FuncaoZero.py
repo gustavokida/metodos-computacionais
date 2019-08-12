@@ -1,8 +1,6 @@
 import math
 import Funcao
-import FuncaoDerivada
 from Funcao import *
-from FuncaoDerivada import *
 from math import *
 import os
 
@@ -52,7 +50,7 @@ def newton_raphson(x, erro):
 
 
     while ((abs(f(x))) > erro):
-        print(x, f(x))
+        print(x, f(x), f_linha(x))
         x = calculaX(x)
     return x
 

@@ -1,7 +1,16 @@
 import math
 from math import *
 
-def
+class polinomio():
+    variavel = []
+    def valor(*args):
+        for i in args:
+            variavel[i] = args[i]
+
+    def multiplica(self, self2):
+
+
+
 
 def lagrange(listX, listY):
 

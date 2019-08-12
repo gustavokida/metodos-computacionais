@@ -34,11 +34,11 @@ def tabelaNormal(significancia):
                0.4999, 0.4999, 0.4999, 0.4999, 0.4999, 0.4999, 0.4999, 0.4999, 0.4999, 0.4999, 0.4999, 0.4999, 0.4999,
                0.5000, 0.5000, 0.5000, 0.5000, 0.5000, 0.5000, 0.5000, 0.5000, 0.5000, 0.5000]
 
-    for i in tnormal:
+    for i in range(len(tnormal)):
         if significancia == tnormal[i]:
-            return float((i-1)/100)
+            return float((i)/100)
         elif significancia < tnormal[i]:
-            return float((i-2)/100)
+            return float((i-1)/100)
 
 def tabelaStudent(confianca, n):
     tstudent = [0.0787, 0.1584, 0.3249, 0.5095, 0.7265, 1.0000, 1.3764, 1.9626, 3.0777, 6.3138, 12.7062, 31.8205,
@@ -92,14 +92,14 @@ def tabelaStudent(confianca, n):
 
     x = 0
     y = 0
-    for i in liberdade:
+    for i in range(len(liberdade)):
         if n == liberdade[i]:
             y = i
             break
         elif n < liberdade[i]:
             y = i-1
             break
-    for i in grauconf:
+    for i in range(len(grauconf)):
         if confianca == grauconf[i]:
             x = i
             break
@@ -116,8 +116,8 @@ def icNormal(dpp, n, media, significancia):
 
     z = tabelaNormal(significancia)
 
-    ic = media + (z*dpp/sqrt(n))
-    ic2 = media - (z * dpp / sqrt(n))
+    ic = media - (z*dpp/sqrt(n))
+    ic2 = media + (z * dpp / sqrt(n))
 
     return ic, ic2
 
@@ -126,8 +126,8 @@ def icStudent(dp, n, media, confianca):
 
     t = tabelaStudent(confianca, (n-1))
 
-    ic = media + (t*dp/sqrt(n))
-    ic2 = media - (t*dp/sqrt(n))
+    ic = media - (t*dp/sqrt(n))
+    ic2 = media + (t*dp/sqrt(n))
 
     return ic, ic2
 
@@ -137,5 +137,7 @@ def pPopulacional(sucesso, tamanho, signficancia):
     z = tabelaNormal(signficancia)
     p = sucesso/tamanho
 
-    ic = p + (z * sqrt(p * (1 - p) / tamanho))
-    ic2 = p - (z * sqrt(p * (1 - p) / tamanho))
+    ic = p - (z * sqrt(p * (1 - p) / tamanho))
+    ic2 = p + (z * sqrt(p * (1 - p) / tamanho))
+
+    return ic, ic2

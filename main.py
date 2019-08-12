@@ -19,20 +19,27 @@ def reload_funcao():
     os.remove('__pycache__/Funcao.cpython-37.pyc')
     importlib.reload(Funcao)
 
+#print(IC.icStudent(5, 100, 500, 95))
+
+
+
+
+
+
 
 #if __name__ == '__main__':
 funcao = input("Digite a funcao:")
-reload_funcao()
 EditaFuncao.editaFuncao(funcao)
+reload_funcao()
 a = 1
 b = 0
 erro = 0.01
-print(FuncaoZero.bissecao(a, b, erro))
+print(FuncaoZero.secante(b, a, erro))
 
 funcao = input("Digite a funcao:")
-reload_funcao()
 EditaFuncao.editaFuncao(funcao)
+reload_funcao()
 a = 1
 b = 0
 erro = 0.05
-print(FuncaoZero.bissecao(a, b, erro))
+print(FuncaoZero.secante(b, a, erro))
