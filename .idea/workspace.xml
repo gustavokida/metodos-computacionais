@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37b35af1-0d45-4946-830e-14b8d883526e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Metodos Computacionais.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Metodos Computacionais.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EditaFuncao.py" beforeDir="false" afterPath="$PROJECT_DIR$/EditaFuncao.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Correlacao.py" beforeDir="false" afterPath="$PROJECT_DIR$/Correlacao.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Funcao.py" beforeDir="false" afterPath="$PROJECT_DIR$/Funcao.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FuncaoZero.py" beforeDir="false" afterPath="$PROJECT_DIR$/FuncaoZero.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/IC.py" beforeDir="false" afterPath="$PROJECT_DIR$/IC.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interpolacao.py" beforeDir="false" afterPath="$PROJECT_DIR$/Interpolacao.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,11 +24,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="950" />
-    <option name="width" value="980" />
-    <option name="height" value="1040" />
   </component>
   <component name="ProjectId" id="1PBwuvBXhyvJcFiRVaxXbIg1o7L" />
   <component name="PropertiesComponent">
@@ -56,6 +48,27 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.main">
+    <configuration name="Correlacao" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Metodos Computacionais" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Correlacao.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="EditaFuncao" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Metodos Computacionais" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -77,6 +90,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="IC" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Metodos Computacionais" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/IC.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="MetodosComputacionais-FuncoesMatematicas" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Metodos Computacionais" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -90,48 +124,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MetodosComputacionais-FuncoesMatematicas.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="MetodosComputacionais-Newton_Raphson" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Metodos Computacionais" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MetodosComputacionais-Newton_Raphson.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="MetodosComputacionais-metodoDaSecante" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Metodos Computacionais" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MetodosComputacionais-metodoDaSecante.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -164,10 +156,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.Correlacao" />
+        <item itemvalue="Python.IC" />
         <item itemvalue="Python.EditaFuncao" />
         <item itemvalue="Python.MetodosComputacionais-FuncoesMatematicas" />
-        <item itemvalue="Python.MetodosComputacionais-metodoDaSecante" />
-        <item itemvalue="Python.MetodosComputacionais-Newton_Raphson" />
       </list>
     </recent_temporary>
   </component>
