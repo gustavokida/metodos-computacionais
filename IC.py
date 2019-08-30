@@ -106,7 +106,6 @@ def tabelaStudent(confianca, n):
         elif confianca > grauconf[i]:
             x = i-1
             break
-    print(tstudent[y*14+x])
     return tstudent[y*14+x]
 
 
@@ -116,10 +115,11 @@ def icNormal(dpp, n, media, significancia):
 
     z = tabelaNormal(significancia)
 
-    ic = media - (z*dpp/sqrt(n))
-    ic2 = media + (z * dpp / sqrt(n))
+    ic = media - (z*dpp/float(sqrt(n)))
+    ic2 = media + (z * dpp / float(sqrt(n)))
 
-    return ic, ic2
+    resultado = (('ic', ic), ('ic2', ic2))
+    return resultado
 
 def icStudent(dp, n, media, significancia):
     confianca = float((100-significancia)/100)
@@ -129,10 +129,11 @@ def icStudent(dp, n, media, significancia):
     ic = media - (t*dp/float(sqrt(n)))
     ic2 = media + (t*dp/float(sqrt(n)))
 
-    return ic, ic2
+    resultado = (('ic', ic), ('ic2', ic2))
+    return resultado
 
 def pPopulacional(sucesso, tamanho, signficancia):
-    signficancia = float(signficancia/2)
+    signficancia = float(signficancia/200)
 
     z = tabelaNormal(signficancia)
     p = sucesso/tamanho
@@ -140,5 +141,6 @@ def pPopulacional(sucesso, tamanho, signficancia):
     ic = p - (z * sqrt(p * (1 - p) / tamanho))
     ic2 = p + (z * sqrt(p * (1 - p) / tamanho))
 
-    return ic, ic2
+    resultado = (('ic', ic), ('ic2', ic2))
+    return resultado
 

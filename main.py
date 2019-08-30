@@ -16,7 +16,7 @@ import importlib
 
 def recarrega():
     #os.system('del __pycache__/Funcao.cpython-37.pyc')
-    os.remove('__pycache__/Funcao.cpython-37.pyc')
+    #os.remove('__pycache__/Funcao.cpython-37.pyc')
     importlib.reload(Funcao)
 
 #print(IC.icStudent(5, 100, 500, 95))
@@ -43,23 +43,23 @@ if i == '1':
     print("4. Secante")
     j = input("Digite aqui: ")
 
-    if j == 1:
+    if j == '1':
         funcao = input("Digite a funcao: ")
         EditaFuncao.editaFuncao(funcao)
         recarrega()
-        a = int(input("a: "))
-        b = int(input("b: "))
-        erro = int(input("erro: "))
+        a = float(input("a: "))
+        b = float(input("b: "))
+        erro = float(input("erro: "))
         print(FuncaoZero.bissecao(b, a, erro))
-    if j == 2:
+    if j == '2':
         funcao = input("Digite a funcao: ")
         EditaFuncao.editaFuncao(funcao)
         recarrega()
-        a = int(input("a: "))
-        b = int(input("b: "))
-        erro = int(input("erro: "))
+        a = float(input("a: "))
+        b = float(input("b: "))
+        erro = float(input("erro: "))
         print(FuncaoZero.posicao_falsa(b, a, erro))
-    if j == 3:
+    if j == '3':
         funcao = input("Digite a funcao: ")
         EditaFuncao.editaFuncao(funcao)
         recarrega()

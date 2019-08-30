@@ -2,6 +2,10 @@ import math
 from math import *
 
 def pearson(listX, listY):
+
+    listX = list(map(float, listX.split()))
+    listY = list(map(float, listY.split()))
+
     totalX = sum(listX)
     totalY = sum(listY)
 
@@ -30,9 +34,14 @@ def pearson(listX, listY):
 
     r = r / (float(sqrt(quadradoX))*float(sqrt(quadradoY)))
 
-    return r
+    resultado = (('resultado', r))
+    return resultado
 
 def spearman(listX, listY):
+
+    listX = list(map(float, listX.split()))
+    listY = list(map(float, listY.split()))
+
 
     soma = 0
     sortX = sorted(listX)
@@ -55,9 +64,15 @@ def spearman(listX, listY):
 
     n = len(listX)
     p = 1 - (6*soma/(n*(n*n - 1)))
-    return p
+
+    resultado = (('resultado', p))
+    return resultado
 
 def kendall(listX, listY):
+
+    listX = list(map(float, listX.split()))
+    listY = list(map(float, listY.split()))
+
 
     concordantes = 0
     discordantes = 0
@@ -73,5 +88,7 @@ def kendall(listX, listY):
     print(concordantes, discordantes)
     n = len(listX)
     t = (concordantes - discordantes) / (n*(n-1)/2)
-    return t
+
+    resultado = (('resultado', t))
+    return resultado
 
