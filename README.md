@@ -109,11 +109,15 @@ endereço: "/funcaozero/secante"
 
 INTERVALO DE CONFIANÇA
 
-dpp = desvio padrão populacional
-dp = desvio padrão
-n = quantidade da população
-sucesso = quantidade de sucesso
-sig = significância
+	dpp = desvio padrão populacional
+
+	dp = desvio padrão
+
+	n = quantidade da população
+
+	sucesso = quantidade de sucesso
+
+	sig = significância
 
 Normal:
 endereço: "/ic/normal"
