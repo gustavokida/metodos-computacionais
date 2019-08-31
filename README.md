@@ -21,7 +21,7 @@ Na abra o terminal na pasta onde se encontra o arquivo "app.py" e digite:
 
 ---------------------------------------------------------------------
 
-	FUNCAO ZERO
+FUNCAO ZERO
 
 A FUNÇÃO É ESCRITA NO ENDEREÇO "/funcaozero/funcao"
 
@@ -32,29 +32,29 @@ A FUNÇÃO É ESCRITA NO ENDEREÇO "/funcaozero/funcao"
 
 
 
-Exemplo de entrada:
-{
- "funcao" : "x*x*x-9*x+3"
-}
+	Exemplo de entrada:
+	{
+	 "funcao" : "x*x*x-9*x+3"
+	}
 
 Siga essas regras quando escrever a função.
 
 
-log(x) -> logaritmo base 10
-ln(x)  -> logaritmo base e
-sin(x) -> seno
-cos(x) -> cosseno
-tan(x) -> tangente
+	log(x) -> logaritmo base 10
+	ln(x)  -> logaritmo base e
+	sin(x) -> seno
+	cos(x) -> cosseno
+	tan(x) -> tangente
 
 operações basicas:
 
-* -> multiplicação
-x*x*x -> Potência deve ser feita na forma de multiplicação
-sqrt(x) -> raiz quadrada
-+ -> soma
-- -> subtração
-() -> operador de procedência
-/ -> divisão
+	* -> multiplicação
+	x*x*x -> Potência deve ser feita na forma de multiplicação
+	sqrt(x) -> raiz quadrada
+	+ -> soma
+	- -> subtração
+	() -> operador de procedência
+	/ -> divisão
 
 
 
@@ -62,49 +62,52 @@ sqrt(x) -> raiz quadrada
 
 
 
-	Bisseção:
+Bisseção:
 endereço: "/funcaozero/bissecao"
 
 Exemplo de entrada:
-{
- "a" : "1",
- "b" : "2",
- "erro" : "0.01"
-}
 
-	posição falsa:
+	{
+	 "a" : "1",
+	 "b" : "2",
+	 "erro" : "0.01"
+	}
+
+posição falsa:
 endereço: "/funcaozero/posicaofalsa"
 
-Exemplo de entrada:
-{
- "a" : "1",
- "b" : "2",
- "erro" : "0.01"
-}
+	Exemplo de entrada:
 
-	newton ralphson:
+	{
+	 "a" : "1",
+	 "b" : "2",
+	 "erro" : "0.01"
+	}
+
+newton ralphson:
 endereço: "/funcaozero/newtonralphson"
 
 Exemplo de entrada:
-{
- "a" : "1",
- "erro" : "0.01"
-}
 
-	secante:
+	{
+	 "a" : "1",
+	 "erro" : "0.01"
+	}
+
+secante:
 endereço: "/funcaozero/secante"
 
-Exemplo de entrada:
-{
- "a" : "1",
- "b" : "2",
- "erro" : "0.01"
-}
+	Exemplo de entrada:
+	{
+	 "a" : "1",
+	 "b" : "2",
+	 "erro" : "0.01"
+	}
 
 
 ---------------------------------------------------------------------
 
-	INTERVALO DE CONFIANÇA
+INTERVALO DE CONFIANÇA
 
 dpp = desvio padrão populacional
 dp = desvio padrão
@@ -112,70 +115,76 @@ n = quantidade da população
 sucesso = quantidade de sucesso
 sig = significância
 
-	Normal:
+Normal:
 endereço: "/ic/normal"
 
 Exemplo de entrada:
-{
- "dpp" : "5",
- "n" : "100",
- "media" : "500",
- "sig" : "95"
-}
 
-	Student:
+	{
+	 "dpp" : "5",
+	 "n" : "100",
+	 "media" : "500",
+	 "sig" : "95"
+	}
+
+Student:
 endereço: "/ic/student"
 
 Exemplo de entrada:
-{
- "dp" : "5",
- "n" : "100",
- "media" : "500",
- "sig" : "95"
-}
 
-	populacional:
+	{
+	 "dp" : "5",
+	 "n" : "100",
+	 "media" : "500",
+	 "sig" : "95"
+	}
+
+populacional:
 endereço: "/ic/populacional"
 
 Exemplo de entrada:
-{
- "sucesso" : "5",
- "n" : "100",
- "sig" : "95"
-}
+
+	{
+	 "sucesso" : "5",
+	 "n" : "100",
+	 "sig" : "95"
+	}
 
 ---------------------------------------------------------------------
 
-	CORRELAÇÃO
+CORRELAÇÃO
 
 o espaço ' ' é utilizado para separar os números, como mostrado nos exemplos.
 
-	Pearson:
+Pearson:
 endereço: "/correlacao/pearson"
 
 Exemplo de entrada:
-{
- "listax" : "1 2 3 4 5 6 7 35 100 43",
- "listay" : "4 1 3 5 6 100 2 3 90 20"
-}
 
-	Spearman:
+	{
+	 "listax" : "1 2 3 4 5 6 7 35 100 43",
+	 "listay" : "4 1 3 5 6 100 2 3 90 20"
+	}
+
+Spearman:
 endereço: "/correlacao/spearman"
 
 Exemplo de entrada:
-{
- "listax" : "1 2 3 4 5 6 7 35 100 43",
- "listay" : "4 1 3 5 6 100 2 3 90 20"
-}
 
-	Kendall:
+	{
+	 "listax" : "1 2 3 4 5 6 7 35 100 43",
+	 "listay" : "4 1 3 5 6 100 2 3 90 20"
+	}
+
+Kendall:
 endereço: "/correlacao/kendall"
 
 Exemplo de entrada:
-{
- "listax" : "1 2 3 4 5 6 7 35 100 43",
- "listay" : "4 1 3 5 6 100 2 3 90 20"
-}
+
+	{
+	 "listax" : "1 2 3 4 5 6 7 35 100 43",
+	 "listay" : "4 1 3 5 6 100 2 3 90 20"
+	}
 
 
 
